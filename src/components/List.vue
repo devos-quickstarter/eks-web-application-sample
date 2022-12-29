@@ -40,7 +40,7 @@ export default {
     fetchList() {
       axios.get('/api/users')
       .then((res) => {
-        this.list = res
+        this.list = res.data
       })
       .catch(err => console.log(err))
     },
