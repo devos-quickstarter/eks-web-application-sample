@@ -7,7 +7,7 @@ profile: default
 namespace: default
 
 image:
-  repository: $IMAGE_REPOSITORY/eks-demo-web
+  repository: devosquickstarter/eks-demo-web
   tag: latest
   pullPolicy: Always
 
