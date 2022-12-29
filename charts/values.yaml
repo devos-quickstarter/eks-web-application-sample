@@ -31,7 +31,7 @@ service:
 
 ingress:
   enabled: true
-  subdomain: $SERVICE_ACCOUNT
+  subdomain: eks-user
   basedomain: 127.0.0.1.nip.io
   hosts: {}
   annotations:
